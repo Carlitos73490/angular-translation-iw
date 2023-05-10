@@ -1,0 +1,17 @@
+div{
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgrey;
+}
+
+div > li {
+  padding: 0;
+  margin: 0;
+  background-color: burlywood;
+}
+
+div > ul {
+  list-style-type: none;
+  margin: 1em;
+  padding: 0;
+}
