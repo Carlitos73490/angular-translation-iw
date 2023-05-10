@@ -1,5 +1,9 @@
 <ul>
   <li><a i18n>Home</a></li>
-  <li><a i18n>English</a></li>
-  <li><a i18n>French</a></li>
 </ul>
+
+<select  (change)="changeLocale($event)">
+  <option [selected]="currentLanguage == 'en'" value="en" i18n>English</option>
+  <option [selected]="currentLanguage == 'fr'" value="fr" i18n>French</option>
+</select>
+

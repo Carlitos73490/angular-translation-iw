@@ -10,14 +10,6 @@
           "strict": true
         }
       },
-      "i18n": {
-        "sourceLocale": "en-US",
-        "locales": {
-          "fr-FR": {
-            "translation": "src/locale/messages.fr-FR.xlf"
-          }
-        }
-      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -25,7 +17,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": ["fr-FR"],
             "outputPath": "dist/angular-translation-iw",
             "index": "src/index.html",
             "main": "src/main.ts",
