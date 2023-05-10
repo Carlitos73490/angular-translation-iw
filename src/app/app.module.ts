@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import {I18nModule} from "./i18n/i18n.module";
+import { ClockComponent } from './components/clock/clock.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    ClockComponent
   ],
   imports: [
     BrowserModule
